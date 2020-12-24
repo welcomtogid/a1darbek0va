@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Nova+Flat&display=swap');
+body{ 
+    width: 100%;
+    margin: 0;
+    
+}
+.nav_bar{
+    font-family: 'Bangers', cursive;
+    font-family: 'Nova Flat', cursive;
+}
+.img_logo{
+    width: 60px;
+
+}
+/* 
+new section
+*/
+
+.section_1{
+    width: 100%;
+    height: 80vh;
+    background: url("https://pbs.twimg.com/media/EULSG5eXkAADvD9.jpg:large") no-repeat center / cover fixed; 
+    font-family: 'Bangers', cursive;
+    font-family: 'Nova Flat', cursive;
+}
+.block_text{ 
+    width: 100%;
+    height: 80vh; 
+    color: gold; 
+    background-color: rgba(0, 0, 0, 0.612);
+}
+.block_text h1{
+    font-size: 60px;
+    display: flex; 
+    justify-content: center;  
+    padding-top: 200px; 
+}
+.block_text button{
+    font-size: 20px;
+    display: flex;  
+    margin: 20px auto;
+}
+
+/* 
+new section
+*/
+
+.block_2{ 
+    margin: 100px auto;
+    text-align: center;
+    width: 90%;
+    height: 100vh; 
+    font-family: 'Bangers', cursive;
+    font-family: 'Nova Flat', cursive; 
+}
+.img_section2{ 
+    max-width: 100%; 
+    height: 70vh;
+    background: url("http://voms.ru/upload/iblock/790/79066dde01ac744da0d7505d67ab6934.jpg") fixed;
+}
+
+.hr{
+    background-color: red; 
+}
+/* 
+new section
+*/
+.box_title{ 
+    margin: 20px auto;
+    padding: 35px 0px;
+    text-align: center;
+    width: 100%; 
+    height: 180px;
+    background: url("https://www1.lehigh.edu/sites/default/files/openers/LehighUniversity_ContinuingEducation_Campus_LindermanLibrary2-min.jpg") center;
+    font-family: 'Bangers', cursive;
+    font-family: 'Nova Flat', cursive; 
+}
+.box_title button{ 
+    font-size: 30px;
+}
+
+/* 
+new section
+*/
+
+.box_1{
+    font-family: 'Bangers', cursive;
+    font-family: 'Nova Flat', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    background: url(" https://krot.info/uploads/posts/2020-01/1580482015_30-p-stilnie-belie-foni-95.jpg")  ;
+    margin-top: -20px;
+    padding-bottom: 40px;
+}
+.card{
+    margin-top: 30px;
+}
+#img_book{ 
+    width: 400px;
+    height: 450px; 
+} 
+
+
+/* 
+swiper
+*/
+
+.swiper-container {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.img_swiper{
+    width: 90%;
+    height: 90vh;
+}
+/* 
+Footer
+*/
+
+footer{
+    font-family: 'Bangers', cursive;
+    font-family: 'Nova Flat', cursive;
+    margin: 0px auto;
+    text-align: center;
+    width: 100%;
+    height: 107vh;
+    background: url("https://krot.info/uploads/posts/2020-01/1580311524_29-p-serie-gradientnie-foni-58.jpg");  
+} 
+.map_google{
+    padding-top: 50px;
+}
+.footer_contac{
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.avtor{ 
+    background-color: rgba(0, 0, 0, 0.808);
+}
+.avtor h3{
+    padding: 30px auto;
+    color: white;
+}

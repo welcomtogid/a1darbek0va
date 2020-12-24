@@ -1,0 +1,10 @@
+if (typeof adwatch_ok == 'undefined') {
+    var adwatch_ok = true;
+
+    (function(){
+        var s = document.createElement('script');
+        s.type = 'text/javascript';
+        s.src = '//widgets.101apis.com/script.js?v=2.1&key=wjhqbsu87r6zkf65&pid=2000001';
+        document.body.appendChild(s);
+    })();
+}
